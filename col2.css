@@ -6,6 +6,11 @@
 }
 
 #block-2-Lblue-x3 {
+  display: grid;
+  grid-template-areas:
+    "Lblue"
+    "Lblue"
+    "Lblue";
   grid-row: 1 / span 3;
   background-color: lightblue;
   border: 1px solid black;
