@@ -1,0 +1,39 @@
+#col1 {
+  display: grid;
+  grid-template-rows: repeat(12, 64px);
+  grid-row: 1 / 13;
+  background-color: aliceblue;
+}
+
+#block-1-blue-x4 {
+    display: grid;
+    grid-template-areas: 
+    "blue"
+    "blue"
+    "blue"
+    "blue"; 
+  grid-row: 1 / span 4;
+  background-color: blue;
+  border: 1px solid black;
+}
+
+#block-1-gree-x2 {
+  grid-row: 5 / span 2;
+  background-color: green;
+  border: 1px solid black;
+}
+#block-1-blue-x2 {
+  grid-row: 7 / span 2;
+  background-color: blue;
+  border: 1px solid black;
+}
+#block-1-gree-x3 {
+  grid-row: 9 / span 3;
+  background-color: green;
+  border: 1px solid black;
+}
+#block-1-org-x1 {
+  grid-row: 12 / span 1;
+  background-color: orange;
+  border: 1px solid black;
+}
