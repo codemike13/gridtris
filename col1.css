@@ -14,7 +14,6 @@
     "blue";
   grid-row: 1 / span 4;
   background-color: blue;
-  border: 1px solid black;
 }
 
 #block-1-green-x2 {
@@ -24,7 +23,6 @@
     "green";
   grid-row: 5 / span 2;
   background-color: green;
-  border: 1px solid black;
 }
 #block-1-blue-x2 {
   display: grid;
@@ -33,7 +31,6 @@
     "blue";
   grid-row: 7 / span 2;
   background-color: blue;
-  border: 1px solid black;
 }
 #block-1-green-x3 {
   display: grid;
@@ -43,10 +40,10 @@
     "green";
   grid-row: 9 / span 3;
   background-color: green;
-  border: 1px solid black;
 }
 #block-1-org-x1 {
+  display: grid;
+  grid-template-areas: "green";
   grid-row: 12 / span 1;
   background-color: orange;
-  border: 1px solid black;
 }
